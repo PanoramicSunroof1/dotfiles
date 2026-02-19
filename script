@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #i need to copy a file from my repo into the home directroy.
-#This should run insde vim-config.
-cp .vimrc ~/.vimrc
+#This should run OUTSIDE vim-config.
+cp vim-config/.vimrc ~/.vimrc
 # -d means directory. so If the directroy below does not exist it runs.
 if [ ! -d ~/.vim/bundle/Vundle.vim]; then
 	#make directory
@@ -12,3 +12,4 @@ if [ ! -d ~/.vim/bundle/Vundle.vim]; then
 fi
 #after if statment run the pluginstall this should enable the .vimrc contents
 vim +PluginInstall +qall
+echo "I think i worked :)"
