@@ -4,7 +4,7 @@
 #This should run OUTSIDE vim-config.
 cp vim-config/.vimrc ~/.vimrc
 # -d means directory. so If the directroy below does not exist it runs.
-if [ ! -d ~/.vim/bundle/Vundle.vim]; then
+if [ ! -d ~/.vim/bundle/Vundle.vim ]; then
 	#make directory
 	mkdir -p ~/.vim/bundle
 	#after making the directory git clone the content to it and end the if statment.
