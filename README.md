@@ -14,4 +14,8 @@
 ## Notes
 
 * One of the things looking back I didn't do very well was citing sources, Evening making this README.md i was looking through my citations and other than the ones in sysinstalls i didnt exactly know what they were used for without reading through them thouroghly.
+
+* For future improvements I would like to go back through and make sure everythign is reorganized a bit differently with a few more folders inside the dotfiles as it all feels very unorganized and kinda just thrown together.
+
+* I also would like to go back through the scripts as I feel like i did the absolute bare minimum for the task and didnt add some small things i thought would be cool to add.
   
