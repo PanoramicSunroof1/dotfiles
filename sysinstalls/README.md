@@ -1,3 +1,7 @@
+## Script
+
+This script is designed to run with sudo privileges, this will check and make sure the script uses apt packet manager. It then informs the user what its insalling being AWS CLI v2, curl and unzip. The script then asks the user if they would like to continue with a y or n if ``y then it will install curl unzip and the awscli.zip. Which will then unzip it and remove the .zip file.
+
 ## Citations
 
 [UID/UEID Check in script](https://www.cyberciti.biz/tips/shell-root-user-check-script.html#:~:text=A%20user%20ID%20is%20assigned,%23%20...)
